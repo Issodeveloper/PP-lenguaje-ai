@@ -30,8 +30,6 @@ for (let i = 0; i < words.length; i++) {
     modifiedWordsArr.push(newWord);
 }
 
-
-
 fs.writeFile(
     './languages/randomish/randomishV3',
     
@@ -44,9 +42,3 @@ fs.writeFile(
         }
     }
 );
-
-for (var o in probabilityOfLettersVowel) {
-    sum += probabilityOfLettersVowel[o];
-}
-
-console.log(sum);
