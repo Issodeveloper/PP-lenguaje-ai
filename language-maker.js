@@ -1,6 +1,7 @@
 const fs = require('fs');
 const weightedRandom = require('./modules/weighted-random');
 const unrepeated = require('./modules/check-for-repeat');
+const checkIfPrefix = require('./modules/check-if-prefix');
 const words = fs.readFileSync('words.txt', 'utf8').split('\n');
 let modifiedWords = '';
 let modifiedWordsArr = [];

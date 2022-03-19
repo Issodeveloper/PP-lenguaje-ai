@@ -1,0 +1,3 @@
+checkIfPrefix = (word) => {
+    
+}
