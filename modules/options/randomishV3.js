@@ -8,12 +8,9 @@ const probabilityOfLettersVowel = {
 }
 
 const probabilityOfLettersOther = {
-    ar: 0.93,
-    de: 0.3,
     t: 0.65,
     n: 0.5,
     s: 0.5,
-    le: 0.5,
     ch: 0.5,
     c: 0.5,
     d: 0.5,
@@ -28,6 +25,7 @@ const probabilityOfLettersOther = {
     v: 0.1,
     x: 0.033,
     z: 0.03,
-    j: 0.2,
-    je: 0.2,
+    j: 0.1,
 }
+
+module.exports = [probabilityOfLettersVowel,  probabilityOfLettersOther];

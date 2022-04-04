@@ -4,7 +4,8 @@
   "description": "",
   "main": "language-maker.js",
   "scripts": {
-    "devStart": "nodemon weighted-random.js"
+    "devStart": "nodemon language-maker.js",
+    "devStartCustom": "nodemon check-if-prefix.js"
   },
   "keywords": [],
   "author": "",
